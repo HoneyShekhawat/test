@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "enter two numbers: "
+read -p "First number : " num1
+read -p "Second number : "num2
+
+echo "Sum : $(($num1+$num2))"
+echo "Subtraction : $(($num1-$num2))" 
